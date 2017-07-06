@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	$('#myText').load('http://localhost:8000/files/aboutmecontent.html', function(){
+	$('#myText').load('https://yamal-coding.github.io/files/aboutmecontent.html', function(){
 		$("#githubButton").hover(function(){
 			$("#imagenGit").css("top", $("#githubButton").position().top + 50)
 						.css("left", $("#githubButton").position().left)
