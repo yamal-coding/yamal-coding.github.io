@@ -59,6 +59,6 @@ a:link, a:visited {
 	flex-direction: column;
 }
 
-#imagenGit, #imagenLink, #imagenProjects, #imagenArt {
+#imagenAboutme, #imagenGit, #imagenLink, #imagenProjects, #imagenArt {
 	position: absolute;
 }
