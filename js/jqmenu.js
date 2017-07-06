@@ -1,5 +1,12 @@
 $(document).ready(function() {
 	$("#cajaMenu").load('http://localhost:8000/files/menucontent.html', function(){
+		$("#aboutmeButton").hover(function(){
+			$("#imagenAboutme").css("top", $("#aboutmeButton").position().top + 50)
+						.css("left", $("#aboutmeButton").position().left)
+						.show("500");
+		}, function(){
+			$("#imagenAboutme").hide("500");
+		});
 		$("#githubButton").hover(function(){
 			$("#imagenGit").css("top", $("#githubButton").position().top + 50)
 						.css("left", $("#githubButton").position().left)
