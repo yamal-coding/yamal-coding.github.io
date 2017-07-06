@@ -11,6 +11,10 @@
   	text-align: center;	
 }
 
+#cajaMenu {
+	text-align: center;
+}
+
 .option{
 	margin:10px;
 	border-radius: 20px;
@@ -27,6 +31,7 @@
 }
 
 a .option {
+	margin-right: 1em;
 	background-color: #FFC072;
 }
 
