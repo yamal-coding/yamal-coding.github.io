@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	$("#cajaMenu").load('http://localhost:8000/files/menucontent.html', function(){
+	$("#cajaMenu").load('https://yamal-coding.github.io/files/menucontent.html', function(){
 		$("#aboutmeButton").hover(function(){
 			$("#imagenAboutme").css("top", $("#aboutmeButton").position().top + 50)
 						.css("left", $("#aboutmeButton").position().left)
