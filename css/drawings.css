@@ -1,0 +1,15 @@
+.drawing {
+	margin: 1em;
+	cursor: pointer;
+}
+
+.drawing img:hover {
+	box-shadow: 10px 10px 5px white;
+} 
+
+.drawing img {
+	width: 20%;
+	height: auto;
+	border-radius: 20px;
+}
+
