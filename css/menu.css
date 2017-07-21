@@ -1,12 +1,4 @@
-#menuButton {
-  width: 50px;
-  margin-left: auto;
-  margin-right: auto;
-  border:2px solid #666;
-  background-color: yellow;
-}
-
-#menuButton, .option, #closeMenuButton {
+/*#menuButton, */.option, #closeMenuButton {
 	cursor: pointer;
   	text-align: center;	
 }
@@ -16,14 +8,14 @@
 }
 
 .option{
-	margin:10px;
+	margin:0.4em;
 	border-radius: 20px;
-	padding:12px; 
-	border:2px solid #666; 
-	width:80px; 
+	padding:1em; 
+	border:2px solid #666;
 	margin-right: auto; 
 	margin-left: auto;
 	display: inline-block;
+	font-size: 1em;
 }
 
 .option:hover {
@@ -46,7 +38,12 @@ a:link, a:visited {
 	float:left;
 }
 
-#closeMenuButton {
+#imagenAboutme, #imagenGit, #imagenLink, #imagenProjects, #imagenArt {
+	position: absolute;
+}
+
+
+/*#closeMenuButton {
 	height: 50px;
 	width: 50px;
 	border-radius: 50%;
@@ -57,8 +54,12 @@ a:link, a:visited {
 	justify-content: center;
 	align-content: center;
 	flex-direction: column;
-}
+}*/
 
-#imagenAboutme, #imagenGit, #imagenLink, #imagenProjects, #imagenArt {
-	position: absolute;
-}
+/*#menuButton {
+  width: 3em;
+  margin-left: auto;
+  margin-right: auto;
+  border:2px solid #666;
+  background-color: yellow;
+}*/
