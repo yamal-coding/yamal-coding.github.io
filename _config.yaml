@@ -1,0 +1,56 @@
+#Theme
+theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: sunrise
+
+#General
+locale: en-US
+title: Yamal
+subtitle: Site with random stuff
+title_separator: "|"
+name: Yamal Al-Mahamid
+description: Personal blog used to write about different kind of things.
+url: https://yamal.yamal-coding.github.io
+repository: "yamal-coding/yamal-coding.github.io"
+search: true
+
+author:
+  name: *name
+  avatar: /assets/images/profile.jpg
+  bio: "Android developer. Sometimes I draw."
+  location: "Madrid, Spain"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/yamal-coding"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/igriega95"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://es.linkedin.com/in/yamal-cesar-al-mahamid-velez"
+
+# Posts
+paginate: 5
+paginate_path: "/blog/page:num"
+words_per_minute: 200
+
+#Social
+atom_feed:
+  hide: true
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      show_date: true
+      author_profile: true
+      read_time: true
+      comments: true
+      share: false
+      related: false
+
+plugins:
+  - jekyll-remote-theme
