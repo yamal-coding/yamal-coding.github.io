@@ -266,10 +266,11 @@ PLATFORMS
   x86_64-darwin-19
 
 DEPENDENCIES
-  github-pages
-  jekyll-paginate
-  jekyll-seo-tag
-  jekyll-sitemap
+  github-pages (~> 211)
+  jekyll-paginate (~> 1.1.0)
+  jekyll-remote-theme (~> 0.4.2)
+  jekyll-seo-tag (~> 2.7.1)
+  jekyll-sitemap (~> 1.4.0)
   minimal-mistakes-jekyll
 
 BUNDLED WITH
