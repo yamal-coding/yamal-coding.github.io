@@ -32,7 +32,7 @@ The list of tagged colors was created using the content from [this website](http
 
 #### How to find the closest color?
 
-To find the closest distance between two things, usually vectors, the easiest way is to use the **euclidean distance**. Thankfully, colors are represented using different kinds of vectors: RGB, HEX, HSL, etc. In my first approach, I tried to find the euclidean distance between RGB values but later I found that HSL is a colorspace that suits better for human perception of colors, so I switched to HSL and the results were much better.
+To find the closest distance between two things, usually vectors, the easiest way is to use the [euclidean distance](https://en.wikipedia.org/wiki/Euclidean_distance). Thankfully, colors are represented using different kinds of vectors: RGB, HEX, HSL, etc. In my first approach, I tried to find the euclidean distance between RGB values but later I found that HSL is a colorspace that suits better for human perception of colors, so I switched to HSL and the results were much better.
 
 However, even using HSL, the results weren't good, the only solution I found at that time was to add more elements to the dataset of tagged colors in order to have more options to choose from and increase the chances of finding a closer color.
 
