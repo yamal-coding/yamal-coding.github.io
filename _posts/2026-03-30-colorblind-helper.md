@@ -5,7 +5,7 @@ title:  "Colorblind helper tool"
 
 In this post I would like to talk about a tool I recently created: Color snitch. The aim of this tool is to help people with color blindness to identify colors. It is a simple web application that lets the users pick an image from their devices so they can click anywhere on that image and get the name of the color of that pixel.
 
-Before we dive in into how the tool works, you can try it out here: https://yamal-coding.github.io/color-snitch/
+Before we dive in into how the tool works, you can try it out [here](https://yamal-coding.github.io/color-snitch/).
 
 
 ### How does it work?
@@ -16,7 +16,7 @@ My idea was the following: Given an unknown color (represented in RGB or HEX), w
 
 #### Where did the list of tagged colors come from?
 
-The list of tagged colors was created using the content from this website: https://www.computerhope.com/htmcolor.htm. It contains lots of colors, each of them with a different name, but fortunately they are sorted by their main color so I could easily classify them in the following categories:
+The list of tagged colors was created using the content from [this website](https://www.computerhope.com/htmcolor.htm). It contains lots of colors, each of them with a different name, but fortunately they are sorted by their main color so I could easily classify them in the following categories:
  - Black
  - White
  - Gray
@@ -43,7 +43,7 @@ Then, [Oklab](https://bottosson.github.io/posts/oklab/) colorspace came into sce
 
 The implementation details are not very complex, the color is taken from the image in HEX format, then it is converted into RGB format to finally be converted into Oklab format. Then, the distance between the unknown color and each of the tagged colors is calculated using the euclidean distance formula and the closest color is returned as a result.
 
-The actual code can be seen in my Github respository: https://github.com/yamal-coding/color-snitch/
+The actual code can be seen in my [Github respository](https://github.com/yamal-coding/color-snitch/).
 
 ### Future optimizations and improvements
 
