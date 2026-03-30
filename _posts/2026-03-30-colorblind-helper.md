@@ -48,6 +48,7 @@ The actual code can be seen in my [Github respository](https://github.com/yamal-
 ### Future optimizations and improvements
 
 The tool is working fine but there are some optimizations and improvements that I would like to implement in the future:
+ - Analyze areas instead of single pixels. There are somes cases where a picture can have some noise and even though the color of the pixel is correct, the overall color of the area is different.
  - Add more colors to the dataset of tagged colors. Even though the results are good, it would be nice to have more robust results by having more examples when looking for the closest color. 
  - Realtime color tagging: instead of having to manually select a photo from camera/gallery, it would be nice to just foucs the camera on an object and let the tool to automatically tag the color of the object in realtime.
 
