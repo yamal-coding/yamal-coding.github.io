@@ -26,6 +26,30 @@ $ bundle install
 $ bundle exec jekyll serve
 ```
 
+### Using Docker
+
+If you don't want to install Ruby and Jekyll locally, you can use Docker instead.
+
+- Build the image:
+
+```
+$ docker build -t jekyll-site .
+```
+
+- Run the container:
+
+```
+$ docker run --rm -p 4000:4000 jekyll-site
+```
+
+The site will be available at `http://localhost:4000`.
+
+If you want changes to your local files to be reflected in the running container without rebuilding, mount the project directory as a volume:
+
+```
+$ docker run --rm -p 4000:4000 -v $(pwd):/site jekyll-site
+```
+
 ## Deployment
 
-Github will automatically deploy new changes when pushing to `main`
+Github will automatically deploy new changes when pushing to `master`.
