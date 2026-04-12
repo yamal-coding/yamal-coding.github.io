@@ -5,7 +5,11 @@ title:  "Colorblind helper tool"
 
 In this post I would like to talk about a tool I recently created: Color snitch. The aim of this tool is to help people with color blindness to identify colors. It is a simple web application that lets the users pick an image from their devices so they can click anywhere on that image and get the name of the color of that pixel.
 
-Before we dive in into how the tool works, you can try it out [here](https://yamal-coding.github.io/color-snitch/).
+Before we dive in into how the tool works, you can try it out [here](https://yamal-coding.github.io/color-snitch/). Color Snitch may have changed since the time this post was written, so I'm attaching an image of how it looked at this point:
+
+<p align="center">
+  <img src="/assets/images/color-snitch-first-version.png">
+</p>
 
 
 ### How does it work?
